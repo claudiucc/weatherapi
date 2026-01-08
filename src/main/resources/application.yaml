@@ -1,0 +1,8 @@
+server.port: 7105
+
+spring:
+  application:
+    name: weatherapi
+
+logging.level:
+  root: INFO
