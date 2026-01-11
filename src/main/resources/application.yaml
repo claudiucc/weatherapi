@@ -1,6 +1,8 @@
 server.port: 7105
 
 spring:
+  profiles:
+    active: ${NODE_ENV}
   application:
     name: weatherapi
 
